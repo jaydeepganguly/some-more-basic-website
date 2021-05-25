@@ -1,0 +1,124 @@
+.mynav{
+    box-shadow: 2px 2px 8px black;
+    background-color: rgb(255, 254 ,234  / 87%)  !important;
+    backdrop-filter : blur(10px);
+}
+.main-header{
+    background-image: url(galaxy.jpg);
+    background-size: cover;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.default-header{
+    background-image: url(galaxy.jpg);
+    background-size: cover;
+    padding-top: 80px;
+    padding-bottom: 50px;
+}
+.default-header-text-holder{
+    text-align: center;
+    color: blanchedalmond;
+
+}
+.default-header-text-holder h3{
+    font-size: 1.2em;
+}
+.header-text-holder, .subscribe-holder{
+    text-align: center;
+    color: blanchedalmond;
+
+}
+.home-body-content , .default-body-content{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.default-body-content .list-group .list-group-item h3{
+     font-size: 1.5em;
+     color: darkmagenta;
+}
+.home-body-content .my_card{
+  margin-bottom: 25px;
+  margin-top: 25px;
+}
+.default-body-content .list-group .list-group-item a{
+    padding-top: 25px;
+    padding-bottom: 25px;
+    margin: 25px;
+}
+.my_card{
+    font-size: 1.2em;
+}
+.my_card:hover{
+    box-shadow: black 8px 8px 12px;
+}
+.my_card h3{
+    font-size: 1.2em;
+}
+.main-footer{
+    padding-top: 25px;
+    padding-bottom: 25px;
+    color: blanchedalmond;
+    background-color: crimson;
+}
+footer .main-footer p{
+      margin: 25px;
+}
+
+
+/* this is the css of speech recognition */
+
+
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    height: 100vh;
+    background: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
+  }
+  
+  .mic {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    background: rgba(0,0,0,.4);
+    padding: 15px;
+  }
+  
+  .mic.recording {
+    animation-name: bg-blink;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+  }
+  
+  .speech-output {
+    width: 40vw;
+    min-height: 40vh;
+    max-height: 500px;
+    overflow-y: scroll;
+    background: #fff;
+    opacity: .3;
+    border-radius: 5px;
+    box-shadow: 0 0 0 8px #fff, 1px 1px 1px #000;
+    border: 2px dashed #AD1457;
+    padding: 30px;
+  }
+  
+  .speech-output p { margin-bottom: 20px; }
+  .speech-output p:last-child { margin-bottom: 0; }
+  
+  @keyframes bg-blink {
+    0%   { background: rgba(0,0,0,.4); }
+    50%  { background: rgba(139,0,0,.8); }
+    100% { background: rgba(0,0,0,.4); }
+  }
+  
+  @media screen and (max-width: 750px) {
+    .speech-output { width: 60vw; }
+  } */
